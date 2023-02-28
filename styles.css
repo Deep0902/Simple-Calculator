@@ -1,0 +1,64 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 5vh auto 0;
+  box-shadow: 0px 0px 43px 17px #999999;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 10px 8px;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+  padding: 5px;
+}
+
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  padding: 5px;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5x;
+  border-radius: 5px;
+  float: left;
+  background-color: #14283d;
+  color: #e0e1dd;
+  -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+#equal {
+  background-color: #38ada9;
+  color: white;
+}
+
+#equal:hover {
+  background-color: white;
+  color: #14283d;
+}
+
+.button:hover {
+  background-color: #ececec;
+  color: #343434;
+  transition: 0.2s ease-in-out;
+}
